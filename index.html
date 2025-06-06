@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Polygon.io Stock Timeseries Viewer</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>Polygon.io Stock Timeseries Viewer</h1>
+  <form id="search-form">
+    <input id="symbol" placeholder="Symbol (e.g., AAPL)" required />
+    <label>
+      From: <input id="from" type="date" required />
+    </label>
+    <label>
+      To: <input id="to" type="date" required />
+    </label>
+    <button type="submit">Get Data</button>
+  </form>
+  <div id="results"></div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
