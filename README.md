@@ -74,36 +74,3 @@ Content-Type: application/json
  Frequent Git commits
  README file present
  Creative effort demonstrated
-
-
-
-
-
-
-
-
-
-
-
-
-api.js notes to edit
-const BASE_URL = 'https://latest-stock-price.p.rapidapi.com';
-
-const HEADERS = {
-  'x-rapidapi-key': '849cb7a0d9msh2ec0d87a90ea912p18f044jsn666cfd414a9d',
-  'x-rapidapi-host': 'latest-stock-price.p.rapidapi.com'
-};
-
-/**
- * Fetches stock time series data for a given symbol.
- * @param {string} symbol - Stock symbol (e.g., 'INFO.NS')
- * @param {string} timescale - Timescale (e.g., '1')
- * @param {string} period - Period (e.g., '1DAY')
- * @returns {Promise<Object>} - Stock data
- */
- * Fetches stock time series data for a given symbol.
- * @param {string} symbol - Stock symbol (e.g., 'INFO.NS')
- * @param {string} timescale - Timescale (e.g., '1')
- * @param {string} period - Period (e.g., '1DAY')
- * @returns {Promise<Object>} - Stock data
- */
